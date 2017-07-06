@@ -4,13 +4,13 @@
 <div class="flexslider">
   <ul class="slides">
     <li class="slider_item">
-      <img class ="slider_image" src="<?php echo get_stylesheet_directory_uri(); ?>/images/1.jpg"/>
+      <img class ="slider_image" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/1.jpg"/>
     </li>
     <li class="slider_item">
-      <img class ="slider_image" src="<?php echo get_stylesheet_directory_uri(); ?>/images/2.jpg"/>
+      <img class ="slider_image" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/2.jpg"/>
     </li>
     <li class="slider_item">
-      <img class ="slider_image" src="<?php echo get_stylesheet_directory_uri(); ?>/images/3.jpg"/>
+      <img class ="slider_image" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/3.jpg"/>
     </li>
   </ul>
 </div>

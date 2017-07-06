@@ -12,15 +12,16 @@ var gulp = require('gulp'),
         slider: './node_modules/flexslider/jquery.flexslider-min.js',
         node_jquery: './node_modules/jquery/dist/jquery.min.js',
         carousel_style: './node_modules/flexslider/flexslider.css',
-        js: './js/dev-js/*.js'
+        js: './assets/js/dev-js/*.js'
     },
     watch: {
         html: './*.php',
         style: './dev/scss/*.scss',
+        css: "./"
     },
     build: {
-        devcss: './css/devstyles/',
-        js: './js/',
+        devcss: './assets/css/devstyles/',
+        js: './assets/js/',
         concatcss: './'
     }
 };
@@ -30,7 +31,7 @@ gulp.task('build-styles', function(){
 	.pipe(sass())
     .pipe(gulp.dest(path.build.devcss))
     return gulp.src([path.dev.carousel_style, path.build.devcss + "*.css"])
-    .pipe(concat('style.css'))
+    .pipe(concat('main.css'))
     .pipe(cleanCSS({compatibility: 'ie8'}))
     .pipe(rename({
     suffix: ".min"}))

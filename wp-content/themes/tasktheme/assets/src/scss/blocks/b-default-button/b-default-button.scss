@@ -1,0 +1,24 @@
+.b-default-button{
+    width: 110px;
+    background: $default-button-color;
+    border: none;
+    border-radius: 20%;
+    display: block;
+    &__button-text{
+        color: white;
+        text-transform: uppercase;
+        padding: 20px;
+        display: inline-block;
+    }
+    &_on-header{
+        display: inline-block;
+        float: right;
+        margin-top: 30px;
+        margin-right: 20px;
+    }
+}
+
+.fa-search_custom{
+    color: white;
+    display: inline-block;
+}

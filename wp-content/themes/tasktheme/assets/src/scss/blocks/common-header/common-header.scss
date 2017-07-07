@@ -1,0 +1,8 @@
+// make sure you have variables.scss file imported in your main file
+
+.common-header{
+    display: block;
+    width: 100%;
+    height: $header-height;
+    background: $header-color;
+}

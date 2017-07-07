@@ -1,0 +1,18 @@
+.b-logo{
+    max-width: 120px;
+    max-height: 60px;
+    display: inline-block;
+    &__img{
+        width: 100%;
+        height: 100%;
+    }
+    &_on-header{
+        padding-left: 20px;
+        padding-bottom: 20px;
+        padding-top: 10px;
+    }
+    &_on-footer{
+        display: block;
+        margin: 0 auto;
+    }
+}

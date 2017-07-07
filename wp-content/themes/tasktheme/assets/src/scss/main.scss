@@ -1,0 +1,30 @@
+html, body, p, div{
+    margin: 0;
+    padding: 0;
+}
+
+html, body{
+    font-size: 16px;
+    font-family: sans-serif;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+@import "variables";
+@import "override";
+@import "blocks/common-header/common-header";
+@import "blocks/b-logo/b-logo";
+@import "blocks/b-default-button/b-default-button";
+@import "blocks/common-footer/common-footer";
+
+
